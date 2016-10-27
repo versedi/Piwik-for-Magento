@@ -40,7 +40,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </active>
-
                         <install translate="label">
                             <label>Install Path</label>
                             <comment>i.e. http://www.example.com/piwik/</comment>
@@ -50,8 +49,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </install>
-
-
                         <site translate="label">
                             <label>Site Id</label>
                             <comment>Default is 1</comment>
@@ -61,8 +58,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </site>
-
-
                         <pwtoken translate="label">
                             <label>Piwik Auth Token</label>
                             <comment>Find in your API Tab of Piwik Install</comment>
@@ -72,8 +67,6 @@
                             <show_in_website>1</show_in_website>
                             <show_in_store>1</show_in_store>
                         </pwtoken>
-
-
                     </fields>
                 </analytics>
             </groups>

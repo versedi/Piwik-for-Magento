@@ -15,7 +15,7 @@
 <config>
     <modules>
         <PiwikMage_PiwikAnalytics>
-            <version>1.1.8.0</version>
+            <version>1.1.8.1</version>
         </PiwikMage_PiwikAnalytics>
     </modules>
     <global>
@@ -87,19 +87,10 @@
             <adminhtml>
                 <args>
                     <modules>
-                        <piwikanalytics after="Mage_Adminhtml">PiwikMage_PiwikAnalytics_Adminhtml</piwikanalytics>
+                        <PiwikMage_PiwikAnalytics after="Mage_Adminhtml">PiwikMage_PiwikAnalytics_Adminhtml</PiwikMage_PiwikAnalytics>
                     </modules>
                 </args>
             </adminhtml>
-        </routers>
-        <routers>
-            <PiwikMage_PiwikAnalytics>
-                <use>admin</use>
-                <args>
-                    <module>PiwikMage_PiwikAnalytics</module>
-                    <frontName>piwikanalytics</frontName>
-                </args>
-            </PiwikMage_PiwikAnalytics>
         </routers>
     </admin>
 </config>
